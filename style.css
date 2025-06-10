@@ -330,7 +330,7 @@ body {
 .card-diamante {
     background: #f6f6f6;
     border-radius: 12px;
-    width: 220px;
+    width: 200px;
     padding: 20px 0px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -393,6 +393,33 @@ body {
     color: #FFFFFF;
     transition: all 0.3s ease;
     border: 3px solid #FFFFFF;
+}
+
+.cantidad-input {
+    margin-bottom: 15px;
+}
+
+.cantidad-input label {
+    display: block;
+    /* font-weight: bold; */
+    margin-bottom: 5px;
+    color: #4D4D4D;
+}
+
+.cantidad-input input {
+    width: 100%;
+    max-width: 150px;
+    padding: 8px;
+    border: 2px solid #25d366;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+.cantidad-input input:focus {
+    border-color: #00cc66;
 }
 
 /* ESTILOS FOOTER */
@@ -666,7 +693,7 @@ body {
 .input-icon span {
     background: #25d366;
     color: white;
-    padding: 8px;
+    padding: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -708,6 +735,7 @@ body {
 
     .afortunados {
         flex-wrap: wrap;
+        margin: 0px 10px;
     }
 
     .title-text-premios {
@@ -725,13 +753,14 @@ body {
         position: absolute;
         top: 106px;
         border-radius: 20px;
-        margin: 6px 10px;
+        margin: 6px 30px;
 
     }
 
     .contenido-oportunidades {
         flex-direction: column;
         margin: 0 auto;
+        padding-bottom: 30px;
     }
 
     .container-fecha {
@@ -772,6 +801,43 @@ body {
 
     .copyright p {
         padding-bottom: 10px;
+    }
+
+    .title-oportunidades h1 {
+        padding: 25px 30px;
+    }
+
+    .title-footer {
+        margin: 20px 0px;
+    }
+
+    .modal {
+        padding: 1rem;
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        
+    }
+
+    .modal-header {
+        font-size: 1.1rem;
+        padding-right: 2.5rem;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+        /* Una sola columna en móviles */
+    }
+
+    .close-btn {
+        top: 12px;
+        right: 12px;
+        font-size: 1.4rem;
+    }
+
+    .submit {
+        font-size: 1rem;
+        padding: 0.8rem;
     }
 
 }
