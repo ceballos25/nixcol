@@ -1,0 +1,18 @@
+.number {
+    /* background-color: #efb810; */
+    color: #000;
+    padding: 3px;
+    border-radius: 21px;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-style: dotted;
+    margin-right: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+ }
+
+/* Estilo para los números seleccionados */
+.number.selected {
+    background-color: #d1d1d1; /* Fondo más oscuro para los números seleccionados */
+    border-color: #999; /* Borde más oscuro */
+}
