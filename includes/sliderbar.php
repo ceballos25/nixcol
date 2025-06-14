@@ -9,7 +9,7 @@
     <div>
         <div class="brand-logo d-flex align-items-center justify-content-between m-2">
             <a href="<?php echo BASE_URL; ?>" class="text-nowrap logo-img">
-                <img src="../img/logo-nix.png" width="100%" alt="" style="border-radius: 10px;" />
+                <img src="../img/nix-sf.png" width="100%" alt="" style="border-radius: 10px;" />
             </a>
             <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                 <i class="ti ti-x fs-8"></i>

@@ -62,7 +62,7 @@
     <!-- LOGO -->
     <div class="container-principal-logo">
         <div class="logo">
-            <img src="img/logo-nix.png" alt="Logo">
+            <img src="img/nix-sf.png" alt="Logo">
         </div>
 
         <div class="bubble-container">
